@@ -1,0 +1,66 @@
+body{
+    margin:0cm;
+}
+
+header{
+    background-color: #7F8C8D;
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr; /* Columna para la imagen y columna para la lista */
+    align-items: center; /* Alinea verticalmente */
+    column-gap: 20px; /* Espacio entre columnas */
+}
+
+.list-header{
+    list-style: none; /*Elimina estilos de toda la lista*/
+    padding-left: 300px;
+    display: flex
+}
+
+.list-header li{
+    margin-right: 20px;
+}
+
+.logo-header{
+    width: 300px; /*Ancho de imagen*/
+    left: 200px; /*Altura de imagen*/
+}
+
+#img-main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#footer_principal{
+    background-color: #7F8C8D; /* Cambia #333 al color que desees */
+    color: #fff; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Centra el contenido del footer */
+    padding: 20px; /* Añade espaciado alrededor del contenido del footer */
+}
+
+footer > p{
+    font-size: 20px;
+}
+
+#sobre_nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+#sobre_nosotros > div {
+    font-size: larger;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  /*Uso de pseudo-clase*/
+#sobre_nosotros :hover{
+    background-color: #7F8C8D; /* Fondo al pasar el puntero */
+    color: #fff; /* Color de texto al pasar el puntero */
+}
+
+h3{
+    text-align: center;
+}
