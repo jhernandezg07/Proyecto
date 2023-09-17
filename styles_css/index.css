@@ -1,4 +1,4 @@
-body{
+*{
     margin:0cm;
 }
 
@@ -9,16 +9,34 @@ header{
     grid-template-columns: auto 1fr 1fr 1fr; /* Columna para la imagen y columna para la lista */
     align-items: center; /* Alinea verticalmente */
     column-gap: 20px; /* Espacio entre columnas */
+    display: flex;
+    justify-content: space-between; /* Mueve el contenido hacia los extremos */
 }
 
 .list-header{
     list-style: none; /*Elimina estilos de toda la lista*/
-    padding-left: 300px;
-    display: flex
+    display: flex;
 }
 
 .list-header li{
     margin-right: 20px;
+}
+
+.registro-login{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.registro{
+    background-color: #000;
+    color: #7F8C8D;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
 }
 
 .logo-header{
@@ -48,7 +66,7 @@ footer > p{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  
+
 #sobre_nosotros > div {
     font-size: larger;
     margin: 20px;
